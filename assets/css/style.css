@@ -23,9 +23,6 @@ h1 {
 header {
   height: 90px;
   background-color: white;
-
-  /* align-items: center; */
-  /* justify-content: space-between; */
 }
 header .wrapper {
   display: flex;
@@ -35,16 +32,16 @@ header .wrapper {
   padding: 0 20px; /* Ajoute un espacement intérieur à gauche et à droite */
 }
 header div {
-  display: flex; /* Ajoutez cette ligne pour utiliser Flexbox */
+  display: flex;
   align-items: center;
 }
 
 header img {
-  height: 60px; /* Ajustez la hauteur de l'image selon vos besoins */
+  height: 60px;
 }
 
 header p {
-  margin-left: 10px; /* Ajoute une marge à gauche du paragraphe */
+  margin-left: 10px;
 }
 
 header nav {
@@ -85,7 +82,16 @@ header nav button {
 }
 
 /* FOOTER */
+footer {
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
 .footer-link {
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.footer-link a {
+  color: white;
 }
