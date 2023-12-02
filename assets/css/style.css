@@ -94,4 +94,5 @@ footer {
 }
 .footer-link a {
   color: white;
+  text-decoration: none; /* Supprime le soulignement des liens */
 }
